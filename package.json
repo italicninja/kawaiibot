@@ -1,0 +1,19 @@
+{
+  "name": "wowhead-forever-discord-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Discord bot: posts a Wowhead Forever item card for every [Item Name] written in chat",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "lookup": "node src/lookup.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "playwright-core": "^1.64.1"
+  }
+}
